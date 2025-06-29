@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Page</title>
+    <title>Aiyma Khan Blog - Contact</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
   </head>
   <body>
-    <h1>Contact Page</h1>
+    <header id="main-header">
+      <h1>Aiyma Khan Blog</h1>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="contact-form">
+        <h2>Contact Us</h2>
+        <p>
+          Have a question or want to work together? Fill out the form below.
+        </p>
+        <form id="main-contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer id="main-footer">
+      <p>&copy; 2025 Aiyma Khan Blog</p>
+    </footer>
   </body>
 </html>
