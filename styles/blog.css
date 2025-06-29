@@ -1,0 +1,25 @@
+.blog-post {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.blog-post h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 15px;
+}
