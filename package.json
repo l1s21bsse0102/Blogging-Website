@@ -1,0 +1,21 @@
+{
+  "name": "blogging-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l1s21bsse0102/Blogging-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l1s21bsse0102/Blogging-Website/issues"
+  },
+  "homepage": "https://github.com/l1s21bsse0102/Blogging-Website#readme",
+  "description": ""
+}
