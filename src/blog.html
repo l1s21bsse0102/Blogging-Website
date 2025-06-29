@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog Page</title>
+    <title>Aiyma Khan Blog - Blog</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/blog.css" />
   </head>
   <body>
-    <h1>Blog Page</h1>
+    <header id="main-header">
+      <h1>Aiyma Khan Blog</h1>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="blog-posts">
+        <h2>All Blog Posts</h2>
+        <article class="blog-post">
+          <h3>Getting Started with Docker</h3>
+          <p class="post-meta">Published on June 28, 2025</p>
+          <img
+            src="https://placehold.co/800x250/555/fff?text=Docker+Containers"
+            alt="Placeholder image for Docker article"
+          />
+          <p>
+            Docker is an open platform for developing, shipping, and running
+            applications. It enables you to separate your applications from your
+            infrastructure so you can deliver software quickly...
+          </p>
+        </article>
+        <article class="blog-post">
+          <h3>Why Every Developer Should Learn Python</h3>
+          <p class="post-meta">Published on June 20, 2025</p>
+          <img
+            src="https://placehold.co/800x250/777/fff?text=Python+Code"
+            alt="Placeholder image for Python article"
+          />
+          <p>
+            Python's simple, easy-to-learn syntax emphasizes readability and
+            therefore reduces the cost of program maintenance. Python supports
+            modules and packages, which encourages program modularity and code
+            reuse...
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer id="main-footer">
+      <p>&copy; 2025 Aiyma Khan Blog</p>
+    </footer>
   </body>
 </html>
