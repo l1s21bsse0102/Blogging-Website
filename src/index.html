@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
+    <title>Aiyma Khan Blog - Home</title>
+    <link rel="stylesheet" href="../styles/main.css" />
   </head>
   <body>
-    <h1>Homepage</h1>
+    <header id="main-header">
+      <h1>Aiyma Khan Blog</h1>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="hero">
+        <h2>Welcome to the Blog!</h2>
+        <p>Your daily dose of tech news, tutorials, and reviews.</p>
+        <img
+          src="https://placehold.co/900x300/333/fff?text=Tech+Insights"
+          alt="Placeholder image with text 'Tech Insights'"
+        />
+      </section>
+
+      <section id="latest-posts">
+        <h3>Latest Posts</h3>
+        <article class="post-summary">
+          <h4><a href="blog.html">Getting Started with Docker</a></h4>
+          <p>A beginner-friendly guide to containerizing your applications.</p>
+        </article>
+        <article class="post-summary">
+          <h4>
+            <a href="blog.html">Why Every Developer Should Learn Python</a>
+          </h4>
+          <p>
+            Exploring the versatility and power of the Python programming
+            language.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer id="main-footer">
+      <p>&copy; 2025 Aiyma Khan Tech Blog</p>
+    </footer>
   </body>
 </html>
